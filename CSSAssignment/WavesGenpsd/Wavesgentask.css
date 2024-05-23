@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    
+}
+
+.main1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(Put\ Your\ Image\ 3.png);
+    opacity: 0.749;
+    background-size: cover;
+    background-position: right;
+}
+
+.m1 {
+    height: 180px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    font-size: 36px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    padding-top: 140px;
+}
+
+.m2 {
+    height: 60px;
+    width: 100%;
+    /* background-color: rgb(43, 39, 46); */
+    width: 1173px;
+    height: 39px;
+    font-size: 14px;
+    line-height: 29px;
+    color: #f4f5f9;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    padding-left: 350px;
+    padding-top: 10px;
+}
+
+.m3 {
+    height: 30px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    color: white;
+    text-align: center;
+    background-image: url(Ellipse\ 3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main01 {
+    padding-top: 142px;
+    display: flex;
+}
+
+svg {
+    position: relative;
+}
+
+.circle1 {
+    width: 51px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0b0c0b;
+    position: absolute;
+    bottom: 150px;
+    left: 230px;
+    border: 2px solid red;
+    background-image: url(Ellipse\ 1\ photo\ 1.png);
+    background-repeat: no-repeat;
+}
+
+.circle2 {
+    position: absolute;
+    width: 78px;
+    height: 76px;
+    border-radius: 38px;
+    background-color: #f4f5f9;
+    bottom: 210px;
+    left: 470px;
+    border: 2px solid red;
+    background-image: url(Ellipse\ 1\ photo\ 2.png);
+    background-repeat: no-repeat;
+    /* opacity: 0.502;
+    border-radius: 43px;
+    background-color: #e74c3c; */
+
+}
+
+.line {
+    opacity: 0.749;
+    width: 1px;
+    height: 80px;
+    background-color: #45576e;
+    border: 1px solid #ffffff;
+    background-color: black;
+    margin-left: 33px;
+    margin-top: 70px;
+}
+
+.web {
+    width: 100px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #e74c3c;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+
+.ui {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+}
+
+.circle3 {
+    width: 51px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0b0c0b;
+    position: absolute;
+    left: 720px;
+    bottom: 242px;
+    border: 2px solid red;
+    background-image: url(Ellipse\ 1\ phpto\ 3.png);
+    background-repeat: no-repeat;
+}
+
+.circle4 {
+    width: 51px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0b0c0b;
+    position: absolute;
+    left: 950px;
+    bottom: 200px;
+    border: 2px solid red;
+    background-image: url(Ellipse\ 1\ photo\ 4.png);
+    background-repeat: no-repeat;
+}
+
+.circle5 {
+    width: 51px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0b0c0b;
+    position: absolute;
+    left: 1170px;
+    bottom: 176px;
+    border: 2px solid red;
+    background-image: url(Ellipse\ 1\ photo\ 5.png);
+    background-repeat: no-repeat;
+} 

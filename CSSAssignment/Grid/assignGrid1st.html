@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* .main {
+            height: 800px;
+            width: 80%;
+            background-color: black;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+        } */
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main1 {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto;
+
+            height: 100vh;
+            gap: 15px 15px;
+        }
+
+        .one {
+            border: 0px solid black;
+        }
+
+        #two1 {
+            grid-column: span 4;
+
+            background-image: url(https://prosurfriding.com/wp-content/uploads/2020/03/laura.jpg);
+            background-size: cover;
+            padding-bottom: 20px;
+            background-position: bottom;
+        }
+
+        #two2 {
+            grid-column: span 2;
+
+            background-image: url(https://media.istockphoto.com/id/1320275595/photo/young-man-standing-on-rock-looking-at-sea-sunrise.jpg?b=1&s=170667a&w=0&k=20&c=yD420gEOEvi5WUVDCkmDjUbsDCaEhI4OY9eS5B5xEgA=);
+            background-size: cover;
+        }
+
+        #two3 {
+            grid-column: span 1;
+
+            background-image: url(https://w0.peakpx.com/wallpaper/1008/73/HD-wallpaper-cute-smiling-girl-looking-smiling-girls-model.jpg);
+            background-size: cover;
+        }
+
+        #two4 {
+            grid-column: span 4;
+
+            background-image: url(https://images.unsplash.com/photo-1519567770579-c2fc5436bcf9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE4MjY3M30);
+            background-size: cover;
+            background-position: bottom;
+            background-position: center;
+        }
+
+        #two5 {
+            grid-column: span 1;
+
+            background-image: url(https://img.freepik.com/free-photo/medium-shot-couple-with-afro-hairstyles_23-2150677131.jpg);
+            background-size: cover;
+        }
+
+        #two6 {
+            grid-column: span 3;
+
+            background-image: url(https://e1.pxfuel.com/desktop-wallpaper/228/143/desktop-wallpaper-top-most-beautiful-girls-smile-girl.jpg);
+            background-size: cover;
+            background-position: bottom;
+            filter: grayscale(80%);
+        }
+
+        #two7 {
+            grid-column: span 3;
+
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/391/726/482/pc-girl-1920x1080-wallpaper-thumb.jpg);
+            background-size: cover;
+            background-position: 25%;
+        }
+
+        #two8 {
+            grid-column: span 2;
+
+            background-image: url(https://media.istockphoto.com/id/1149958175/photo/modern-skyscrapers-in-midtown-manhattan.webp?b=1&s=170667a&w=0&k=20&c=GGpQK-UrXnhe25zSk4yNixalZfZoYGcOX-Q65zx5wkA=);
+            background-size: cover;
+        }
+
+        #two9 {
+            grid-column: span 2;
+
+            background-image: url(https://i.pinimg.com/originals/7f/bc/65/7fbc65ac7a4c967cd079049e1bc05d98.jpg);
+            background-size: cover;
+        }
+
+        #two10 {
+            grid-column: span 2;
+
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/593/570/372/bridge-sunset-traffic-tower-bridge-wallpaper-preview.jpg);
+            background-size: cover;
+        }
+
+        #two11 {
+            grid-row: span 4;
+            background-color: black;
+            
+        }
+
+
+
+        @media screen and (max-width:767px) {
+
+            .main1 {
+                display: grid;
+                grid-template-columns: auto;
+                grid-template-rows: auto;
+                height: 400vh;
+                gap: 15px 15px;
+            }
+
+            #two1 {
+
+                grid-column: span 1;
+            }
+
+            #two2 {
+
+                grid-column: span 1;
+            }
+
+            #two3 {
+
+                grid-column: span 1;
+            }
+
+            #two4 {
+
+                grid-column: span 1;
+            }
+
+            #two5 {
+
+                grid-column: span 1;
+            }
+
+            #two6 {
+
+                grid-column: span 1;
+            }
+
+            #two7 {
+
+                grid-column: span 1;
+            }
+
+            #two8 {
+
+                grid-column: span 1;
+            }
+
+            #two9 {
+
+                grid-column: span 1;
+            }
+
+            #two10 {
+
+                grid-column: span 1;
+            }
+
+            #two11 {
+                grid-row: 1/1;
+                /* grid-column: 1/1; */
+
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main1">
+        <div class="one" id="two1"></div>
+        <div class="one" id="two2"></div>
+        <div class="one" id="two11"></div>
+        <div class="one" id="two3"></div>
+        <div class="one" id="two4"></div>
+        <div class="one" id="two5"></div>
+        <div class="one" id="two6"></div>
+        <div class="one" id="two7"></div>
+        <div class="one" id="two8"></div>
+        <div class="one" id="two9"></div>
+        <div class="one" id="two10"></div>
+    </div>
+    <!-- <div class="main2">
+            <div class="m1">Shutter</div>
+            <div class="m2">
+                <div class="m02"><a href="" id="home">Home</a></div>
+                <div class="m02"><a href="">Photos</a></div>
+                <div class="m02"><a href="">Bio</a></div>
+                <div class="m02"><a href="">Blog</a></div>
+                <div class="m02"><a href="">Contact</a></div>
+            </div>
+            <div class="m3">
+                <i class="fa-brands fa-facebook-f" style="color: #f8f9fc;" id="icon"></i>
+                <i class="fa-brands fa-twitter" style="color: #fcfcfd;" id="icon"></i>
+                <i class="fa-brands fa-instagram" style="color: #f4f7fa;" id="icon"></i>
+            </div>
+        </div> -->
+
+</body>
+
+</html>

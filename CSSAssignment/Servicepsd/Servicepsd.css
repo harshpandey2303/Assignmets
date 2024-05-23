@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+}
+
+.main1 {
+    height: 100vh;
+    width: 55%;
+    background-color: #202020;
+}
+
+.circle1 {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background-color: #f4f5f9;
+    position: absolute;
+    left: 810px;
+    top: 210px;
+    background-image: url(Forma\ 1\ \(1\)\ 2\ computer.png);
+    background-repeat: no-repeat;
+    background-position: 17px;
+    
+}
+.circle2 {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background-color: #f4f5f9;
+    position: absolute;
+    left: 810px;
+    top: 335px;
+    background-image: url(Forma\ 1\ \(1\)\ 2.png);
+    background-repeat: no-repeat;
+    background-position: 17px;
+    
+    
+}
+.circle3 {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background-color: #f4f5f9;
+    position: absolute;
+    left: 810px;
+    top: 460px;
+    background-image: url(Forma\ 1\ \(1\)\ 2\ camera.png);
+    background-repeat: no-repeat;
+    background-position: 18px;
+}
+
+.line1 {
+    height: 180px;
+    width: 100%;
+    /* background-color: rgb(211, 182, 182); */
+    font-size: 36px;
+    letter-spacing: 4px;
+    color: #f4f5f9;
+    font-weight: 700;
+    font-family: "Source Sans Pro";
+    text-align: end;
+    padding-right: 100px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: end;
+
+}
+
+.line01 {
+    width: 6px;
+    height: 36px;
+    background-color: #e74c3c;
+    margin-left: 30px;
+}
+
+.line2 {
+    height: 50px;
+    width: 100%;
+    /* background-color: rgb(66, 36, 36); */
+    font-size: 18px;
+    line-height: 29px;
+    color: #e74c3c;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+
+.line3 {
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(127, 85, 85); */
+    width: 587px;
+    height: 74px;
+    font-size: 14px;
+    line-height: 29px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    text-align: right;
+    margin-left: 160px;
+}
+
+.line4 {
+    height: 50px;
+    width: 100%;
+    /* background-color: rgb(66, 36, 36); */
+    font-size: 18px;
+    line-height: 29px;
+    color: #e74c3c;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+
+.line5 {
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(48, 34, 34); */
+    width: 587px;
+    height: 74px;
+    font-size: 14px;
+    line-height: 29px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    text-align: right;
+    margin-left: 160px;
+}
+
+.line6 {
+    height: 50px;
+    width: 100%;
+    /* background-color: rgb(66, 36, 36); */
+    font-size: 18px;
+    line-height: 29px;
+    color: #e74c3c;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+
+.line7 {
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(80, 63, 63); */
+    width: 587px;
+    height: 74px;
+    font-size: 14px;
+    line-height: 29px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    text-align: right;
+    margin-left: 160px;
+}
+
+.main2 {
+    height: 100vh;
+    width: 45%;
+    /* background-color: rgb(23, 28, 28); */
+    background-image: url(Put\ Your\ Image\ 2.png);
+    background-position: center;
+}
+@media screen and (max-width : 480px) {
+    
+}
