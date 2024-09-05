@@ -1,0 +1,75 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         
+         </style>
+
+</head>
+
+<body>
+    <h1 style="text-align: center;">Maths Operations</h1>
+
+    <span>Enter 1st number :</span> <input type="text" name="" id="one" >
+    <br>
+    <span>Enter 2st number :</span>  <input type="text" name="" id="two">
+    <br>
+    <p>Answer is: <span id="total"></span> </p>
+    <br>
+
+    <button onclick="puls()"> +</button>
+    <button onclick="minas()"> -</button>
+    <button onclick="multi()"> *</button>
+    <button onclick="devide()"> /</button>
+    <button onclick="per()"> %</button>
+
+    <script>
+        function puls() {
+            let a = document.getElementById("one").value;
+            let b = document.getElementById("two").value;
+
+            let c = Number(a) + Number(b);
+            document.getElementById("total").innerHTML = c;
+
+        }
+        function minas() {
+            let a = document.getElementById("one").value;
+            let b = document.getElementById("two").value;
+
+            let c = Number(a) - Number(b);
+            document.getElementById("total").innerHTML = c;
+
+        }
+        function multi() {
+            let a = document.getElementById("one").value;
+            let b = document.getElementById("two").value;
+
+            let c = Number(a) * Number(b);
+            document.getElementById("total").innerHTML = c;
+
+        }
+        function devide() {
+            let a = document.getElementById("one").value;
+            let b = document.getElementById("two").value;
+
+            let c = Number(a) / Number(b);
+            document.getElementById("total").innerHTML = c;
+
+        }
+        function per() {
+            let a = document.getElementById("one").value;
+            let b = document.getElementById("two").value;
+
+            let c = Number(a) + Number(b);
+            document.getElementById("total").innerHTML = c/100*100;
+
+        }
+    </script>
+</body>
+
+</html>

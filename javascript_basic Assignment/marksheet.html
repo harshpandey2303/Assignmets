@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marksheet for information technology</title>
+</head>
+
+<body>
+    <h1>Enter marksheet</h1>
+
+        1.c Language <input type="text" name="" id="one">
+        <br>
+        2.c++ Language <input type="text" name="" id="two">
+        <br>
+        3.database <input type="text" name="" id="three">
+        <br>
+        4.html <input type="text" name="" id="four">
+        <br>
+        5.css <input type="text" name="" id="five">
+        <br>
+        6.php <input type="text" name="" id="six">
+        <br>
+        7.core java <input type="text" name="" id="seven">
+        <br>
+        <button onclick="abc()">Result</button>
+        <br>
+        <p> Total is:<span id="total"></span>  /350 </p>
+        <br>
+        <p>percentage is: <span id="per"></span> %</p>
+
+        <script>
+            function abc() {
+                let a = document.getElementById("one").value;
+                let b = document.getElementById("two").value;
+                let d = document.getElementById("three").value;
+                let e = document.getElementById("four").value;
+                let f = document.getElementById("five").value;
+                let g = document.getElementById("six").value;
+                let h = document.getElementById("seven").value;
+
+                let c = Number(a) + Number(b) + Number(d) + Number(e) + Number(f) + Number(g) + Number(h);
+
+                document.getElementById("total").innerHTML = c;
+                document.getElementById("per").innerHTML = c/100*100;
+            }
+        </script>
+</body>
+
+</html>
