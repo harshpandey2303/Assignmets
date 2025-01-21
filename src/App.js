@@ -1,18 +1,17 @@
 import React from 'react';
-import { Provider } from 'react-redux';
-import { store } from './redux/store';
-import Counter from './Counter';
-import './styles.css';
+import './App.css';
+import Todo from './Todo';
+import './App.css';
 
-const App = () => {
+function App() {
   return (
-    <Provider store={store}>
-      <div>
-        <h1>Counter Application</h1>
-        <Counter />
-      </div>
-    </Provider>
+    <div className="App">
+      <header className="App-header">
+        <h1>My Todo List</h1>
+      </header>
+      <Todo />
+    </div>
   );
-};
+}
 
 export default App;
